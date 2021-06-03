@@ -1,0 +1,6 @@
+graph {
+    a -- b[label="a - b", color="red", penwidth="2.0"];
+    a -- a[label="a - a", color="blue", penwidth="2.0"];
+    b -- b[label="b - b"];
+    a -- b[label="b - a"];
+}
