@@ -1,0 +1,18 @@
+digraph {
+    rankdir=LR
+
+    a[label="&alpha;"]
+    b[label="&beta;"]
+    c[label="&gamma;"]
+    d[label="&delta;"]
+
+    a -> b[label="a &rarr; b", color="red", penwidth="2.0"];
+    b -> c[label="b &rarr; c", color="red", penwidth="2.0"];
+    c -> d;
+    d -> a;
+
+    a -> a[label="&infin;"]
+    b -> b[label="&infin;"]
+    c -> c[label="c &rarr; c", color="red", penwidth="2.0"];
+    d -> d[label="&infin;"]
+}
