@@ -1,0 +1,17 @@
+digraph {
+    splines="line"
+
+    a[label="start"]
+    b[color="red"]
+    c[color="blue"]
+
+    a -> b;
+    b -> c;
+    c -> d;
+    d -> a;
+
+    a -> a;
+    b -> b;
+    c -> c;
+    d -> d;
+}
