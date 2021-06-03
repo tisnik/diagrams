@@ -1,0 +1,11 @@
+digraph {
+    a -> b[label="a - b", color="red", penwidth="2.0"];
+    b -> c[label="b - c", color="red", penwidth="2.0"];
+    c -> d;
+    d -> a;
+
+    a -> a;
+    b -> b;
+    c -> c[label="c - c", color="red", penwidth="2.0"];
+    d -> d;
+}
