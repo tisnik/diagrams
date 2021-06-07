@@ -1,0 +1,17 @@
+graph {
+    rankdir=LR
+
+    a[shape="circle", label="&alpha;"]
+    b[shape="circle", label="&beta;"]
+    c[shape="circle", label="&gamma;"]
+    d[shape="circle", label="&delta;"]
+    e[shape="circle", label="&epsilon;"]
+    f[shape="circle", label="&zeta;"]
+
+    a -- b
+    b -- c
+    c -- d;
+    d -- e;
+    e -- f;
+    f -- a;
+}
