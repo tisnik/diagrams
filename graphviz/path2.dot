@@ -1,0 +1,76 @@
+digraph {
+	graph [rankdir=LR];
+	subgraph cluster1 {
+		graph [fillcolor="#80ff80",
+			rank=same,
+			style=filled
+		];
+		a		 [label="&alpha;"];
+		a1;
+		a2;
+	}
+	subgraph cluster2 {
+		graph [fillcolor="#80ffff",
+			rank=same,
+			style=filled
+		];
+		b		 [color=red,
+			label="&beta;"];
+	}
+	subgraph cluster3 {
+		graph [fillcolor="#8080ff",
+			rank=same,
+			style=filled
+		];
+		c		 [label="&gamma;"];
+		c1;
+		c2;
+	}
+	subgraph cluster4 {
+		graph [fillcolor="#ff80ff",
+			rank=same,
+			style=filled
+		];
+		d		 [label="&delta;"];
+		d1;
+		d2;
+	}
+	subgraph cluster5 {
+		graph [fillcolor="#ff8080",
+			rank=same,
+			style=filled
+		];
+		e		 [label="&epsilon;"];
+		e1;
+		e2;
+	}
+	subgraph cluster6 {
+		graph [fillcolor="#ffff80",
+			rank=same,
+			style=filled
+		];
+		f		 [label="&zeta;"];
+		f1;
+		f2;
+	}
+	a -> b;
+	a -> f;
+	a -> a1;
+	a -> a2;
+	c -> b;
+	c -> d;
+	c -> c1;
+	c -> c2;
+	d -> c;
+	d -> e;
+	d -> d1;
+	d -> d2;
+	e -> d;
+	e -> f;
+	e -> e1;
+	e -> e2;
+	f -> a;
+	f -> e;
+	f -> f1;
+	f -> f2;
+}
