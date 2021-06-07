@@ -1,0 +1,39 @@
+graph {
+    rankdir=LR
+    root=o
+
+    a[label="&alpha;"]
+    b[label="&beta;"]
+    c[label="&gamma;"]
+    d[label="&delta;"]
+    e[label="&epsilon;"]
+    f[label="&zeta;"]
+    o[label="&omega;"]
+
+    a -- b;
+    b -- c;
+    c -- d;
+    d -- e;
+    e -- f;
+    f -- a;
+
+    a -- o;
+    b -- o;
+    c -- o;
+    d -- o;
+    e -- o;
+    f -- o;
+
+    a -- a1;
+    a -- a2;
+    b -- b1;
+    b -- b2;
+    c -- c1;
+    c -- c2;
+    d -- d1;
+    d -- d2;
+    e -- e1;
+    e -- e2;
+    f -- f1;
+    f -- f2;
+}
