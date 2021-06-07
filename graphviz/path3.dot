@@ -1,0 +1,89 @@
+digraph {
+	graph [maxdist=4.000,
+		rankdir=LR
+	];
+	subgraph cluster1 {
+		graph [fillcolor="#80ff80",
+			rank=same,
+			style=filled
+		];
+		a		 [dist=0.000,
+			label="&alpha;"];
+		a1		 [dist=1.000];
+		a2		 [dist=1.000];
+	}
+	subgraph cluster2 {
+		graph [fillcolor="#80ffff",
+			rank=same,
+			style=filled
+		];
+		b		 [dist=1.000,
+			label="&beta;"];
+		b1		 [dist=2.000];
+		b2		 [dist=2.000];
+	}
+	subgraph cluster3 {
+		graph [fillcolor="#8080ff",
+			rank=same,
+			style=filled
+		];
+		c		 [dist=2.000,
+			label="&gamma;"];
+		c1		 [dist=3.000];
+		c2		 [dist=3.000];
+	}
+	subgraph cluster4 {
+		graph [fillcolor="#ff80ff",
+			rank=same,
+			style=filled
+		];
+		d		 [dist=3.000,
+			label="&delta;"];
+		d1		 [dist=4.000];
+		d2		 [dist=4.000];
+	}
+	subgraph cluster5 {
+		graph [fillcolor="#ff8080",
+			rank=same,
+			style=filled
+		];
+		e		 [dist=2.000,
+			label="&epsilon;"];
+		e1		 [dist=3.000];
+		e2		 [dist=3.000];
+	}
+	subgraph cluster6 {
+		graph [fillcolor="#ffff80",
+			rank=same,
+			style=filled
+		];
+		f		 [dist=1.000,
+			label="&zeta;"];
+		f1		 [dist=2.000];
+		f2		 [dist=2.000];
+	}
+	a -> b;
+	a -> f;
+	a -> a1;
+	a -> a2;
+	b -> a;
+	b -> c;
+	b -> b1;
+	b -> b2;
+	c -> b;
+	c -> d;
+	c -> c1;
+	c -> c2;
+	d -> c;
+	d -> e;
+	d -> d1;
+	d -> d2;
+	e -> d;
+	e -> f;
+	e -> e1;
+	e -> e2;
+	f -> a;
+	f -> e;
+	f -> f1;
+	f -> f2;
+}
