@@ -1,0 +1,18 @@
+graph {
+    rankdir=LR
+
+    a[label="a", shape="pentagon"]
+    b[label="b", shape="hexagon"]
+    c[label="c", shape="septagon"]
+    d[label="d", shape="octagon"]
+    e[label="e", shape="doublecircle"]
+    f[label="f", shape="doubleoctagon"]
+    g[label="g", shape="tripleoctagon"]
+    h[label="h", shape="invtriangle"]
+    i[label="i", shape="invtrapezium"]
+    j[label="j", shape="invhouse"]
+    k[label="k", shape="Mdiamond"]
+    l[label="l", shape="Msquare"]
+    m[label="m", shape="Mcircle"]
+    n[label="n", shape="rect"]
+}
