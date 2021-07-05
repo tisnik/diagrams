@@ -1,0 +1,18 @@
+graph {
+    rankdir=LR
+
+    a[label="a", shape="box"]
+    b[label="b", shape="polygon"]
+    c[label="c", shape="ellipse"]
+    d[label="d", shape="oval"]
+    e[label="e", shape="circle"]
+    f[label="f", shape="point"]
+    g[label="g", shape="egg"]
+    h[label="h", shape="triangle"]
+    i[label="i", shape="plaintext"]
+    j[label="j", shape="plain"]
+    k[label="k", shape="diamond"]
+    l[label="l", shape="trapezium"]
+    m[label="m", shape="parallelogram"]
+    n[label="n", shape="house"]
+}
