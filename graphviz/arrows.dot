@@ -1,0 +1,17 @@
+digraph {
+    splines="line"
+
+    a[label="start"]
+    b[color="red"]
+    c[color="blue"]
+
+    a -> b [arrowhead=box];
+    b -> c [arrowhead=crow];
+    c -> d [arrowhead=curve];
+    d -> a [arrowhead=icurve];
+
+    b -> a [arrowhead=diamond];
+    c -> b [arrowhead=dot];
+    d -> c [arrowhead=tee];
+    d -> a [arrowhead=vee];
+}
