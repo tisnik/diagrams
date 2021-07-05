@@ -1,0 +1,23 @@
+digraph {
+    splines="line"
+
+    a[label="start"]
+    b[color="red"]
+    c[color="blue"]
+
+    a -> b [arrowhead=box];
+    b -> c [arrowhead=crow];
+    c -> d [arrowhead=curve];
+    d -> e [arrowhead=icurve];
+
+    b -> a [arrowhead=diamond];
+    c -> b [arrowhead=dot];
+    d -> c [arrowhead=tee];
+    d -> e [arrowhead=vee];
+
+    d -> e [arrowhead=obox];
+    d -> f [arrowhead=odiamond];
+    d -> g [arrowhead=odot];
+    d -> h [arrowhead=oinv];
+    d -> i [arrowhead=onormal];
+}
