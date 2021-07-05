@@ -1,0 +1,29 @@
+digraph {
+    node [shape=plain]
+    rankdir=LR
+
+    a[label=<
+<table>
+  <tr><td>x=</td><td>10</td></tr>
+  <tr><td>y=</td><td>20</td></tr>
+  <tr><td>z=</td><td>30</td></tr>
+</table>>]
+
+    b[label=<
+<table>
+  <tr><td>&alpha;=</td><td>1</td></tr>
+  <tr><td>&beta;=</td><td>2</td></tr>
+  <tr><td>&gamma;=</td><td>3</td></tr>
+  <tr><td>&delta;=</td><td>4</td></tr>
+  <tr><td>&epsilon;=</td><td>5</td></tr>
+  <tr><td>&zeta;=</td><td>6</td></tr>
+</table>>]
+
+    c[label=<
+<table>
+  <tr><td>result=</td><td>42</td></tr>
+</table>>]
+
+    a -> b;
+    b -> c;
+}
