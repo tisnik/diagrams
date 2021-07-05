@@ -1,0 +1,18 @@
+graph {
+    rankdir=LR
+
+    a[label="a", shape="rectangle"]
+    b[label="b", shape="square"]
+    c[label="c", shape="star"]
+    d[label="d", shape="none"]
+    e[label="e", shape="underline"]
+    f[label="f", shape="cylinder"]
+    g[label="g", shape="note"]
+    h[label="h", shape="tab"]
+    i[label="i", shape="folder"]
+    j[label="j", shape="box3d"]
+    k[label="k", shape="component"]
+    l[label="l", shape="promoter"]
+    m[label="m", shape="cds"]
+    n[label="n", shape="terminator"]
+}
