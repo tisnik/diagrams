@@ -1,0 +1,14 @@
+digraph {
+    rankdir=LR
+
+    a[label="<f0>x| <f1>y| <f3>z"
+      shape="record"]
+
+    b[label="<f0>&alpha;| <f1>&beta;| <f3>&gamma;"
+      shape="record"]
+
+    c[label="result"]
+
+    a -> b;
+    b -> c;
+}
